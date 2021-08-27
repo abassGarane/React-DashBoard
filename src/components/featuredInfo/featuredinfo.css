@@ -1,0 +1,45 @@
+.featured {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.featured__item {
+	flex: 1;
+	margin: 0px 20px;
+	padding: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.45);
+	-webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.45);
+	-moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.45);
+}
+
+.featured__item--title {
+	font-size: 20px;
+}
+.featured__container {
+	margin: 10px 0px;
+	display: flex;
+	align-items: center;
+}
+.featured__money {
+	font-size: 30px;
+	font-weight: 600;
+}
+.featured__money--rate {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+.featured__icon {
+	font-size: 14px !important;
+	color: #08f714;
+	margin-left: 5px;
+}
+.featured__icon--negative {
+	color: red !important;
+}
+.featured__sub {
+	color: #888;
+	font-size: 15px;
+}
