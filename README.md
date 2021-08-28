@@ -9,6 +9,9 @@
 > dashboard/
 >
 > > /public
+>
 > > /src
+>
 > > /pages
+>
 > > /components
