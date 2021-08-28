@@ -1,3 +1,4 @@
 ## React Based Administration Dashboard
-[-] Running Project
+* Running Project
+---------------
   ```yarn start```
