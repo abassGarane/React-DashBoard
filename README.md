@@ -12,6 +12,6 @@
 >
 > > /src
 >
-> > /pages
+> > > /pages
 >
-> > /components
+> > > /components
