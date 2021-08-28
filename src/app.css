@@ -2,3 +2,8 @@
 	display: flex;
 	margin-top: 10px;
 }
+
+a {
+	text-decoration: none;
+	color: #666;
+}

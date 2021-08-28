@@ -13,6 +13,7 @@ import {
 	Timeline,
 	TrendingUp,
 } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 export default function Sidebar() {
 	return (
 		<div className='sidebar'>
@@ -20,10 +21,12 @@ export default function Sidebar() {
 				<div className='sidebar__menu'>
 					<h3 className='sidebar__title'>DashBoard</h3>
 					<ul className='sidebar__items'>
-						<li className='sidebar__item active'>
-							<Home className='sidebar__icon' />
-							Home
-						</li>
+						<Link to='/'>
+							<li className='sidebar__item active'>
+								<Home className='sidebar__icon' />
+								Home
+							</li>
+						</Link>
 						<li className='sidebar__item'>
 							<Timeline className='sidebar__icon' />
 							Analytics
@@ -37,10 +40,12 @@ export default function Sidebar() {
 				<div className='sidebar__menu'>
 					<h3 className='sidebar__title'>Quick Menu</h3>
 					<ul className='sidebar__items'>
-						<li className='sidebar__item'>
-							<PermIdentity className='sidebar__icon' />
-							Users
-						</li>
+						<Link to='/users'>
+							<li className='sidebar__item'>
+								<PermIdentity className='sidebar__icon' />
+								Users
+							</li>
+						</Link>
 						<li className='sidebar__item'>
 							<Shop className='sidebar__icon' />
 							Products
