@@ -1,7 +1,7 @@
 import { Chart } from '../../components/charts/Chart';
 import FeaturedInfo from '../../components/featuredInfo/FeaturedInfo';
 import './home.css';
-import data from '../../data';
+import { data } from '../../data';
 import { SmallWidget } from '../../components/widgets/smWidgets/SmallWidget';
 import { LargeWidget } from '../../components/widgets/lgWidgets/LargeWidget';
 

@@ -1,4 +1,4 @@
-const data = [
+export const data = [
 	{
 		name: 'Jan',
 		sales: 4000,
@@ -73,4 +73,65 @@ const data = [
 	},
 ];
 
-export default data;
+export const userRows = [
+	{
+		id: 1,
+		lastName: 'Abass',
+		userName: 'Garane',
+		avatar:
+			'https://images.unsplash.com/photo-1629986604004-760253bbf29c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+		status: 'active',
+		email: 'abass@yahoo.com',
+		transaction: '$600',
+	},
+	{
+		id: 2,
+		lastName: 'Abass',
+		userName: 'Garane',
+		avatar:
+			'https://images.unsplash.com/photo-1629986604004-760253bbf29c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+		status: 'active',
+		email: 'abass@yahoo.com',
+		transaction: '$600',
+	},
+	{
+		id: 3,
+		lastName: 'Abass',
+		userName: 'Garane',
+		avatar:
+			'https://images.unsplash.com/photo-1629986604004-760253bbf29c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+		status: 'active',
+		email: 'abass@yahoo.com',
+		transaction: '$600',
+	},
+	{
+		id: 4,
+		lastName: 'Abass',
+		userName: 'Garane',
+		avatar:
+			'https://images.unsplash.com/photo-1629986604004-760253bbf29c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+		status: 'active',
+		email: 'abass@yahoo.com',
+		transaction: '$600',
+	},
+	{
+		id: 5,
+		lastName: 'Abass',
+		userName: 'Garane',
+		avatar:
+			'https://images.unsplash.com/photo-1629986604004-760253bbf29c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+		status: 'active',
+		email: 'abass@yahoo.com',
+		transaction: '$600',
+	},
+	{
+		id: 6,
+		lastName: 'Abass',
+		userName: 'Garane',
+		avatar:
+			'https://images.unsplash.com/photo-1629986604004-760253bbf29c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+		status: 'active',
+		email: 'abass@yahoo.com',
+		transaction: '$600',
+	},
+];
